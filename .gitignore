@@ -1,0 +1,10 @@
+target/
+.settings/
+.classpath
+.factorypath
+.project
+.vscode/
+.gitattributes
+.editorconfig
+.travis.yml
+src/test/
