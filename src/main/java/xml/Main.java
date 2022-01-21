@@ -11,6 +11,6 @@ public final class Main
     {
         Deserializza xml = new Deserializza();
 
-        xml.ReadFileAndPrint();
+        xml.ReadFileAndPrint(); //Richiamo Del Metodo
     }
 }

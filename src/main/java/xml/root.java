@@ -2,7 +2,7 @@ package xml;
 
 import java.util.ArrayList;
 
-public class root 
+public class root //Classe root Del Nostro File XML
 {
     String annoDiInizio;
     aula aula;
