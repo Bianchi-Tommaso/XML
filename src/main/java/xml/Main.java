@@ -14,6 +14,7 @@ public final class Main
         XMLDeserializza xml = new XMLDeserializza();    //Oggetto XML Deserializza
         XMLSerializza xml1 = new XMLSerializza();       //Oggetto XML Serializza
         JSONSerializza json = new JSONSerializza();     //Oggetto JSON Serializza
+        JSONDeserializza json1 = new JSONDeserializza();
 
         root value; //Valore root
 
@@ -22,5 +23,7 @@ public final class Main
         xml1.SerializzaXML(value);     //Richiamo Del Metodo         
 
         json.SerializzaJSON(value);     //Richiamo Del Metodo    
+
+        json1.DeserializzaJSON();
     }
 }
