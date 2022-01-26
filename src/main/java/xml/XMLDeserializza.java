@@ -11,7 +11,7 @@ import com.fasterxml.jackson.dataformat.xml.XmlMapper;
  * Questa Classe Deserializza Un File XML. Legge Il File XML, Tramite Il Metodo toString Stampiamo I Valori Che Ci Interessano
  */
 
-public class Deserializza 
+public class XMLDeserializza 
 {
     /**
      * Questo Metodo Legge E Stampa Il Contenuto Del File, In Particolare Stamperà La Classe Con La Specializzazione Associata 
@@ -22,9 +22,8 @@ public class Deserializza
      * @throws IOException
      */
 
-    public void ReadFileAndPrint() throws JsonParseException, JsonMappingException, IOException
+    public root DeserializzaXML() throws JsonParseException, JsonMappingException, IOException
     {
-        
 
         XmlMapper xmlMapper = new XmlMapper();  
 
@@ -35,6 +34,8 @@ public class Deserializza
 
 
         System.out.println(toString(value));        //Stampa Del Contenuto
+
+        return value;
         
     }
 
